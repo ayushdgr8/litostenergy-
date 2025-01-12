@@ -10,8 +10,8 @@
     cursor: pointer;
 }
 #picture{
-    width: 50px;
-    height: 50px;
+    width: 140px;
+    height: 60px;
 }
 .list{
     cursor: pointer;
@@ -23,6 +23,7 @@
 
 .nav-list-style{
     font-weight: 400;
+    color: white;
 }
 
 .unlist{

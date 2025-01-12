@@ -43,11 +43,11 @@ function Footer() {
           </div>
           <div className="connect">
             <ul>
-              <li><h2>PROJECT</h2></li>
-              <li>VAYU PROJECT</li>
-              <li>JAL JEEVAN</li>
-              <li>YELLOW DOOR ENERGY</li>
-              <li>SPARK ENERGY</li>
+              <li><h2>PRODUCT</h2></li>
+              <li>INVERTER</li>
+              <li>LIGHT</li>
+              <li>GREEN ENERGY</li>
+              <li>BATTERY</li>
             </ul>
           </div>
           <div className="connect">

@@ -39,15 +39,15 @@ function Navbar() {
   return (
     <nav>
         <div className="icon">
-            <Link to="/"><img id="picture" src="power.png" alt="energy" /></Link>
+            <Link to="/"><img id="picture" src="https://lentoindia.com/assets/images/lento-logo.png" alt="energy" /></Link>
         </div>
         <div className="option">
             <ul className={toggle?"nav-menu list":"nav-menu unlist"}>
-                <li className='nav-list-style'><Link to="/history" onClick={CloseFunction}>HISTORY</Link></li>
-                <li className='nav-list-style'><Link to="/about" onClick={CloseFunction}>ABOUT US</Link></li>
-                <li className='nav-list-style'><Link to="/provide" onClick={CloseFunction}>PROVIDE</Link></li>
-                <li className='nav-list-style'><Link to="/worldwide" onClick={CloseFunction}>WORLDWIDE</Link></li>
-                <li className='nav-list-style'><Link to="/contact" onClick={CloseFunction}>CONTACT</Link></li>
+                <li className='nav-list-style'><Link to="/history" onClick={CloseFunction}><span style={{color:"white"}}>HISTORY</span></Link></li>
+                <li className='nav-list-style'><Link to="/about" onClick={CloseFunction}><span style={{color:"white"}}>ABOUT</span></Link></li>
+                <li className='nav-list-style'><Link to="/provide" onClick={CloseFunction}><span style={{color:"white"}}>PROVIDE</span></Link></li>
+                <li className='nav-list-style'><Link to="/worldwide" onClick={CloseFunction}><span style={{color:"white"}}>WORLD WIDE</span></Link></li>
+                <li className='nav-list-style'><Link to="/contact" onClick={CloseFunction}><span style={{color:"white"}}>CONTACT</span></Link></li>
             </ul>
         </div>
         <div onClick={handleFunction} className='menu-icon'>
