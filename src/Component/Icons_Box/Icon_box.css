@@ -1,0 +1,17 @@
+#icon-title{
+    font-size: 20px;
+}
+#icon-text{
+    font-size: 16px;
+    color: rgb(151, 151, 151);
+}
+
+.icon-div{
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: .6s;
+    box-shadow: none;
+}
+.icon-image{
+    margin: 5px 0 3px 0;
+}

@@ -1,0 +1,25 @@
+.box-div{
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    transition: .6s;
+    box-shadow: none;
+    padding: 20px;
+}   
+.box-div:hover{
+    scale: 1.05;
+    box-shadow: 2px 2px 10px 2px rgb(255, 255, 255);
+}
+.box-image{
+    margin-top: 20px;
+}
+.text{
+    margin-top: 20px;
+    /* color:#47f747; */
+    color: white;
+    font-size: 18x;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

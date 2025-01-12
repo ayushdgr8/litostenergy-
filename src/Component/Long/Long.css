@@ -1,0 +1,34 @@
+.image-style{
+    height:400px;
+    width: 600px;
+    margin: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width: 1000px){
+    .long_main{
+        width:80%;
+        flex-wrap: wrap;
+    }
+    .image-style{
+        height: 300px;
+        width: 300px;
+    }
+    
+}
+
+.left_text{
+    font-weight: 200px;
+    font-size: 22px;
+}
+button{
+    margin-top: 20px;
+}
+.long_main{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 1rem;
+}

@@ -1,0 +1,12 @@
+.timeline-div{
+    background-color: #0c083f;
+}
+.Show{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    padding-bottom: 50px;
+}
+

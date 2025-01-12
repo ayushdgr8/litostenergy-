@@ -1,0 +1,52 @@
+
+.air,.green,.water,.solar{
+    width: 100%;
+    object-fit: contain;
+}
+.provide-main{
+    background-color: rgba(0, 0, 0, 0.438);
+}
+.provide{
+    position: relative;
+}
+
+.content-provider{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    font-size: 32px;
+    color: rgb(0, 0, 0);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#res-h1{
+    font-size: 62px;
+}
+#res-h2{
+    font-size: 22px;
+}
+.text-res{
+    position: absolute;
+    top: 40px;
+    left: 10px;
+    color: rgb(255, 255, 255);
+}
+#provide-img{
+    width: 100%;
+}
+.provider-class{
+    margin-top: 50px;
+    position: relative;
+}
+.water_plant,.wind_plant,.solar_plant,.thermal_plant{
+    display: flex;
+}
+.plants{
+    margin: 30px 0 30px 0px;
+    text-align: center;
+}
+
+i{
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

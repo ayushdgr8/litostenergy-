@@ -1,0 +1,68 @@
+.CARD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 80%;
+    height: 350px;
+    margin: 20px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background: linear-gradient(135deg,#1fb2fc,#0c26b6);
+    border-radius: 20px;
+}
+
+.person_img{
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 300px;
+    transition: .5s;
+}
+
+.card:hover .person_img{
+    left: 80%;
+    height: 400px;
+}
+
+.content{
+    position: relative;
+    width:50%;
+    left: 20%;
+    transition: .5s;
+    opacity: 0;
+}
+
+.card:hover .content{
+    opacity: 1;
+    left: 10%;
+}
+.content{
+    color: white;
+}
+.name{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.social{
+    margin-top: 40px;
+}
+.inta,.face,.goo,.twit{
+    margin: 10px;
+}
+.face:hover,.twit:hover{
+    color: rgb(0, 0, 0);   
+}
+.inta:hover,.goo:hover{
+    color: black;
+}
+.detail{
+    font-style: italic;
+    font-weight: 100;
+    
+}

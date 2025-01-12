@@ -1,0 +1,48 @@
+#about{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    padding: 30px;
+}
+#about:hover{
+    color: rgb(252, 252, 252);
+    /* background-color: rgb(77, 11, 218); */
+}
+
+.office{
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    display: grid;
+    border: 1px solid black;
+}
+.row1,.row2,.row3{
+    margin: 50px;
+    border:1px solid green;
+}
+
+#about-1{
+    color: rgb(255, 247, 0);
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 100px 0 10px 0;
+}
+#about-2{
+    color: rgba(255, 253, 253, 0.988);
+    font-size: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+#about-3{
+    color: white;
+    font-size: 16px;
+    font-weight: 40px;
+    letter-spacing: 2px;
+    margin: 5px 0 5px 0;
+    text-align: center;
+}
